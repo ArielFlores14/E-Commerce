@@ -1,0 +1,150 @@
+body {
+	  border: 3px solid white;
+  background-color: #463F3A;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor-imagen {
+  text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.contenedor-imagen img {
+  height: 200px; /* Ajusta la altura de la imagen */
+}
+
+
+
+h1 {
+  color: #F4F3EE;
+  text-align: center;
+  font-family: Arial;
+}
+
+header {
+ border: 1px solid white;
+ background-color: #463F3A;
+ padding: 20px 10px;
+}
+
+
+#favorito {
+  color: white;
+}
+
+nav {
+ overflow: hidden;
+ background-color: #8A817C;
+ padding: 10px 5px;
+}
+
+
+.destacado {
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+
+.agrupar
+{
+border:1px;
+margin: left;
+width:400px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  margin: 40px;
+}
+
+section {
+  border: 1px;
+  width: 20%; /* Ancho ajustado para que ocupe menos espacio y deje espacio para el mapa */
+  padding-left: 20px;
+  background: #E0AFA0;
+}
+
+aside {
+  width: 20%; /* Ancho ajustado para que ocupe menos espacio */
+  padding: 20px;
+  border: 1px; /* Agrega un borde para visibilidad */
+  background: #E0AFA0;
+}
+
+
+footer {
+  border: 1px solid white;
+ overflow: hidden;
+ background-color: #8A817C;
+padding: 10px;
+ text-align: center;
+ clear:both;
+}
+
+
+nav a {
+ border: 1px solid white;
+ float: left;
+ color: white;
+ text-align: center;
+ padding: 12px;
+ text-decoration: underline;
+ font-size: 18px;
+ line-height: 25px;
+ border-radius: 4px;
+}
+
+nav a.active {
+ background-color: #E0AFA0;
+ border:1px solid white;
+ color: white;
+}
+
+
+
+/* Contenedor con borde */
+.form-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #8A817C;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para los inputs y selects */
+.form-container input, 
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Agrupar los radios */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Botón de registro */
+.form-container button {
+    background-color: #E0AFA0;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #463F3A;
+}
