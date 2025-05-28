@@ -1,0 +1,146 @@
+/* General */
+body {
+    background-color: #1E1E2F;
+    font-family: 'Segoe UI', sans-serif;
+    color: #F0F0F0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #292B3A;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #00BFFF;
+}
+
+h1 {
+    color: #00BFFF;
+    font-size: 2.2em;
+    margin: 0;
+}
+
+h2.destacado, h4#favorito {
+    color: #A8DADC;
+    margin: 5px 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #121212;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    background-color: #00BFFF;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0077A6;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #2A2B3C;
+    color: white;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,191,255, 0.2);
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #00BFFF;
+    color: #121212;
+    font-weight: bold;
+}
+
+/* Secciones */
+section, aside {
+    background-color: #2E2E40;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Aside / iframe */
+aside {
+    text-align: center;
+}
+
+iframe.mapa {
+    border: 2px solid #00BFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    padding: 15px;
+    text-align: center;
+    color: #F0F0F0;
+    border-top: 2px solid #00BFFF;
+    margin-top: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Estilos para formulario y select (añadidos para la página categoría) */
+form {
+    margin-top: 15px;
+}
+
+select, input[type="submit"] {
+    background-color: #00BFFF;
+    color: #121212;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+select:hover, input[type="submit"]:hover {
+    background-color: #0077A6;
+}
+
+/* Línea horizontal */
+hr {
+    border-color: #00BFFF;
+    margin: 20px 0;
+}
+
+/* Títulos h3 */
+h3 {
+    color: #A8DADC;
+    margin-top: 20px;
+}
